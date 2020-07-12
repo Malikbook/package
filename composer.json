@@ -1,0 +1,19 @@
+{
+  "name": "oleksii/access",
+  "description": "domain_access",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "league/csv": "^9.6"
+  },
+  "authors": [
+    {
+      "name": "Alex Vashchuk",
+      "email": "vashchuk98@icloud.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "./"
+    ]
+  }
+}
