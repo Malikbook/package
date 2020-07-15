@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Top-500</title>
+    <title>Domain access</title>
     <link rel="stylesheet" type="text/css" href="<?php $_SERVER['DOCUMENT_ROOT']?>/vendor/oleksii/access/Components/Templates/Start_views/css/bootstrap.min.css" />
   </head>
   <body class="m-3">
