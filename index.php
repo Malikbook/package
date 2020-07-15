@@ -4,9 +4,6 @@ require_once __DIR__."/vendor/autoload.php";
 
     $config = require_once __DIR__."/config.php";
 
-    // var_dump($config);
-
-    
     $top = new Core\Reader\File_rider ( $config->input, $config->amount->lines); 
 
     use League\Csv\Reader;
