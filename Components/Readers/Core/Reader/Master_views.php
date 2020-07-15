@@ -9,6 +9,6 @@ abstract class Master_views {
     public static function go_to($patch, array $data = []){
         $data['patch'] = $patch;
         extract($data);
-        require_once "./Components/Templates/Start_views/start_views.php";
+        include_once $_SERVER['DOCUMENT_ROOT']."/vendor/oleksii/access/Components/Templates/Start_views/start_views.php";
     }
 }
