@@ -1,6 +1,6 @@
 <?php
 
-$patch = "input/small";
+$patch = __DIR__."/vendor/oleksii/access/input/small";
 
 return (object)[
 
