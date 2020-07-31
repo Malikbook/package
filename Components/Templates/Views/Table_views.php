@@ -1,7 +1,7 @@
 <?php use Core\HTTP; ?>
 <div class="container">
         <h3 class="mb-3">
-            TOP-500 Most Popular Domains
+            Popular Domains
         </h3>
         <?php $data['top'] = array_slice($data['top'], 0, 500) ?>
         <?php if(count ($data['top']) > 0): ?>
